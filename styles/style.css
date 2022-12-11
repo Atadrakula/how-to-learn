@@ -80,6 +80,16 @@
   z-index: 4;
 }
 
+.two-columns {
+
+}
+
+
+
+
+
+
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
