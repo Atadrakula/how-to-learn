@@ -118,7 +118,6 @@
 .two-columns__space-accent {
   line-height: 34px;
   font-size: 24px;
-  font-weight: normal;
   font-weight: 600;
 }
 
@@ -126,9 +125,62 @@
   margin-bottom: 0;
 }
 
+.digits {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
 
+}
 
+.section-title {
+  width: 60%;
+  text-align: center;
+  margin: 100px auto 20px;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
 
+.section-subtitle {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1100px;
+  margin: 0 auto 100px;
+}
+
+.table__cell {
+  width: 250px;
+  margin-top: 60px;
+}
+
+.table__heading {
+  margin: 0 0 20px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table__text {
+  margin: 0 0 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.table__text:last-of-type {
+  margin: 0;
+}
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
