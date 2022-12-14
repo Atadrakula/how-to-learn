@@ -34,7 +34,7 @@
 }
 
 .header__link::after {
-  content: ' \2192';
+  content: '\2192';
 }
 
 .header__subtitle {
@@ -181,6 +181,64 @@
 .table__text:last-of-type {
   margin: 0;
 }
+
+.feynman {
+  height: 890px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.feynman__title {
+  width: 648px;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  margin: 100px auto 70px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+}
+
+.feynman__subtitle {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  margin: 0;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+
+
+}
+
+.feynman__link {
+  position: absolute;
+  right: 48px;
+  top: 50%;
+  z-index: 3;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__link::after {
+  content: '\2192';
+}
+
+
+.feynman__img {
+  height: 637px;
+  width: 867px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
