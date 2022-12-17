@@ -337,12 +337,6 @@
   font-weight: 600;
 }
 
-.footer__social-icon {
-  height: 16px;
-  width: 16px;
-  margin-right: 10px;
-}
-
 .footer__column-link {
   display: block;
   text-decoration: none;
@@ -352,10 +346,12 @@
   font-weight: normal;
 }
 
+.footer__social-icon {
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+}
+
 .footer__column-link:last-of-type {
   margin-bottom: 16px;
 }
-
-
-
-
