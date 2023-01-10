@@ -4,8 +4,8 @@
   list-style-type: none;
   max-width: 920px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
   column-gap: 100px;
   row-gap: 60px;
 }

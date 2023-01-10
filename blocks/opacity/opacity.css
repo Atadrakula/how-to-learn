@@ -1,0 +1,8 @@
+.opacity {
+  opacity: 1;
+  transition: opacity 2s cubic-bezier(.57,.23,.81,.62);
+}
+
+.opacity:hover {
+  opacity: .33;
+}
